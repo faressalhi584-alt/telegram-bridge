@@ -1,6 +1,6 @@
 <?php
-$token = getenv('TELEGRAM_TOKEN');
-$chat_id = getenv('TELEGRAM_CHAT_ID');
+$token = getenv('8011121063:AAEJvL59FqiYkTiXVHlI9YJtQzfbkG5MrQc');
+$chat_id = getenv('5074238280');
 
 $data = json_decode(file_get_contents("php://input"), true);
 $message = $data['message']['text'] ?? 'No message received';
